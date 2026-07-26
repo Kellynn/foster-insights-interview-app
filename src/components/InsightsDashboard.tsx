@@ -188,7 +188,7 @@ export default function InsightsDashboard({childLevelData, placementLevelData, p
               component="div"
               sx={{ marginBottom: 3 }}
             >
-              Providers with placements woohoo
+              Providers with placements woohoo wow
             </Typography>
             <Typography variant="h1" sx={{ marginBottom: 2, color: 'blue' }}>
               {calculateActivePlacements(placementLevelData)}
