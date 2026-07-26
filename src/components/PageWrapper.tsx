@@ -3,7 +3,7 @@ import TopBar from './TopBar.tsx';
 import AppTheme from '../theme/AppTheme.tsx';
 import NavSideBar from './NavSideBar.tsx';
 import { CssBaseline } from '@mui/material';
-import { BrowserRouter, HashRouter } from 'react-router';
+import { HashRouter } from 'react-router';
 import DataContent from './DataContent.tsx';
 import { useEffect, useState } from 'react';
 import Papa, { ParseResult } from 'papaparse';
