@@ -2,8 +2,8 @@ import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import Box from '@mui/material/Box';
 
 const columns: GridColDef[] = [
-  { field: 'id_provider', headerName: 'Provider ID', width: 70 },
-  { field: 'license_start_date', headerName: 'License Start Date', width: 130 },
+  { field: 'id_provider', headerName: 'Provider ID', width: 110 },
+  { field: 'license_start_date', headerName: 'License Start Date', width: 150 },
   { field: 'license_end_date', headerName: 'License End Date', width: 130 },
   { field: 'county_provider', headerName: 'County', width: 130 },
   { field: 'n_days_licensed', headerName: 'Days Licensed', width: 130 },

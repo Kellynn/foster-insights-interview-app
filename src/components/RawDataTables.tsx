@@ -9,7 +9,7 @@ import PlacementDataTable from './PlacementDataTable.tsx';
 export default function RawDataTables({ childLevelData, providerLevelData, placementLevelData }) {
   return (
     <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-      <ButtonGroup variant="contained" aria-label="Basic button group">
+      <ButtonGroup variant="contained" aria-label="Basic button group" sx={{ marginBottom: 2 }}>
         <Button component={RouterLink} to="/yourdata/childdata">
           Child Data
         </Button>
