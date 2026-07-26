@@ -1,7 +1,7 @@
 {
   "name": "foster_insights_interview_app",
   "version": "1.0.0",
-  "homepage": "https://kellynn.github.io/foster-insights-interview-app/",
+  "homepage": "https://kellynn.github.io/foster-insights-interview-app",
   "private": true,
   "type": "module",
   "scripts": {
