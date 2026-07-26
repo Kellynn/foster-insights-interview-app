@@ -5,14 +5,15 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "pre-deploy": "npm run build",
+    "deploy": "npm run build && gh-pages -d dist",
     "build": "rsbuild build",
     "dev": "rsbuild --open",
     "format": "prettier --write .",
     "lint": "eslint .",
     "preview": "rsbuild preview",
     "test": "rstest",
-    "test:watch": "rstest --watch",
-    "deploy": "gh-pages -d build"
+    "test:watch": "rstest --watch"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
